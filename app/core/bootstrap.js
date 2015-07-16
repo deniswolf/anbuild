@@ -11,4 +11,3 @@ angular.element( document ).ready( function () {
     //strictDi: true
   } );
 } );
-var myModule = angular.module( 'Angello', [] );

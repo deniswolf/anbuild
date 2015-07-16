@@ -1,6 +1,4 @@
 'use strict';
-var webpack = require( 'webpack' ),
-  path = require( 'path' );
 
 var PATHS = {
   app: __dirname + '/app',
@@ -24,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        loader: 'ng-annotate!babel!jshint',
+        loader: 'ng-annotate!babel',
         exclude: /node_modules|bower_components/
       }
     ]
