@@ -1,0 +1,27 @@
+{
+  "name": "anbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base app --hot --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.20",
+    "babel-loader": "^5.3.1",
+    "css-loader": "^0.15.3",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "ng-annotate-loader": "0.0.6",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1"
+  }
+}
