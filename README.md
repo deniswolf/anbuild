@@ -1,4 +1,4 @@
-# angbuild
+# anbuild
 
 An example of build system for an angular app.
 Based on Webpack.
